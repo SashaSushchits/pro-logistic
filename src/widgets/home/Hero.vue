@@ -53,7 +53,7 @@
             class="w-full mb-32 rounded"
           >
           <img
-            src="@/assets/png/logistics-operations.avif"
+            src="@/assets/png/logistics-operations.png"
             class="w-full rounded"
           >
         </div>

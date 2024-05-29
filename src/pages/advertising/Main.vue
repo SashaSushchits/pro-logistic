@@ -30,7 +30,7 @@
           </div>
           <div class="col-span-5">
             <img
-              src="@/assets/png/plane-flying-highway.avif"
+              src="@/assets/png/plane-flying-highway.png"
               class="w-full h-60 rounded"
               alt=""
             >
@@ -59,7 +59,7 @@
           </div>
           <div class="col-span-5">
             <img
-              src="@/assets/png/transportation-cargo-containe.avif"
+              src="@/assets/png/transportation-cargo-containe.png"
               class="w-full h-60 rounded"
               alt=""
             >
@@ -85,7 +85,7 @@
           </div>
           <div class="col-span-5">
             <img
-              src="@/assets/png/truck-logistics-operation.avif"
+              src="@/assets/png/truck-logistics-operation.png"
               class="w-full h-60 rounded"
               alt=""
             >

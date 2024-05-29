@@ -8,7 +8,7 @@
       </button>
       <span class="mdi mdi-heart text-2xl text-red-600" />
     </div>
-    <div class="h-56 bg-no-repeat bg-contain bg-center bg-[url('@/assets/png/transportation-cargo-containe.avif')] mb-6" />
+    <div class="h-56 bg-no-repeat bg-contain bg-center bg-[url('@/assets/png/transportation-cargo-containe.png')] mb-6" />
     <h4 class="font-bold text-xl mb-4">
       {{ title }}
     </h4>

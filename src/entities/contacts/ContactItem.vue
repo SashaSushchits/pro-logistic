@@ -1,7 +1,7 @@
 <template>
   <div class="col-span-1 flex items-center gap-3">
     <img
-      src="@/assets/png/avatar.avif"
+      src="@/assets/png/avatar.png"
       class="h-28 w-28 rounded-full object-cover"
     >
     <div>

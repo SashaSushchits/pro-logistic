@@ -18,7 +18,7 @@
           >
             <div class="col-span-4 h-72">
               <div
-                class="h-full rounded-lg bg-cover bg-no-repeat bg-center bg-[url('@/assets/png/truck-logistics-operation.avif')] text-white flex justify-between flex-col p-4"
+                class="h-full rounded-lg bg-cover bg-no-repeat bg-center bg-[url('@/assets/png/truck-logistics-operation.png')] text-white flex justify-between flex-col p-4"
               >
                 <div class="flex justify-end items-center mb-4">
                   <span class="mdi mdi-heart-outline text-2xl text-black" />
@@ -49,15 +49,15 @@
         </div>
         <div class="col-span-3">
           <img
-            src="@/assets/png/plane-flying-highway.avif"
+            src="@/assets/png/plane-flying-highway.png"
             class="w-full mb-44 rounded"
           >
           <img
-            src="@/assets/png/transportation-cargo-containe.avif"
+            src="@/assets/png/transportation-cargo-containe.png"
             class="w-full mb-44 rounded"
           >
           <img
-            src="@/assets/png/plane-flying-highway.avif"
+            src="@/assets/png/plane-flying-highway.png"
             class="w-full rounded"
           >
         </div>
