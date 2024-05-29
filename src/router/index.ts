@@ -13,6 +13,7 @@ const scrollBehavior: RouterScrollBehavior = (to, from, savedPosition) => {
         return { el: to.hash };
     }
     if (savedPosition) {
+        console.log(from)
         return savedPosition;
     }
     return { left: 0, top: 0 };
