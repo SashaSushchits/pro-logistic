@@ -13,7 +13,7 @@
         >
           <router-link
             class="text-dim_gray hover:text-gray-600"
-            to="/vacancies"
+            :to="`${base}vacancies`"
           >
             Перейти в раздел
             <span class="mdi mdi-arrow-right" />
@@ -88,7 +88,7 @@ const props = defineProps({
     default: false
   }
 })
-
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style scoped></style>

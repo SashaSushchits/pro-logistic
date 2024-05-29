@@ -18,40 +18,41 @@ const scrollBehavior: RouterScrollBehavior = (to, from, savedPosition) => {
     }
     return { left: 0, top: 0 };
 }
+const base = import.meta.env.BASE_URL;
 
 const routes = [
     {
-        path: '/',
+        path: base,
         name: 'home',
         component: Home
     },
     {
-        path: '/about',
+        path: `${base}about`,
         name: 'about',
         component: About
     },
     {
-        path: '/advertising',
+        path: `${base}advertising`,
         name: 'advertising',
         component: Advertising
     },
     {
-        path: '/services',
+        path: `${base}services`,
         name: 'services',
         component: Services
     },
     {
-        path: '/vacancies',
+        path: `${base}vacancies`,
         name: 'vacancies',
         component: Vacancies
     },
     {
-        path: '/news',
+        path: `${base}news`,
         name: 'news',
         component: News
     },
     {
-        path: '/contacts',
+        path: `${base}contacts`,
         name: 'contacts',
         component: Contacts
     },

@@ -3,32 +3,32 @@
     <div class="container mx-auto">
       <div class="grid grid-cols-4 gap-8 text-sm">
         <div class="col-span-1">
-          <router-link to="/about">
+          <router-link :to="`${base}about`">
             <p class="text-white font-bold mb-5 hover:opacity-70 cursor-pointer">
               О компании
             </p>
           </router-link>
-          <router-link to="/advertising">
+          <router-link :to="`${base}advertising`">
             <p class="text-white font-bold mb-5 hover:opacity-70 cursor-pointer">
               Рекламодателю
             </p>
           </router-link>
-          <router-link to="/services">
+          <router-link :to="`${base}services`">
             <p class="text-white font-bold mb-5 hover:opacity-70 cursor-pointer">
               Услуги
             </p>
           </router-link>
-          <router-link to="/vacancies">
+          <router-link :to="`${base}vacancies`">
             <p class="text-white font-bold mb-5 hover:opacity-70 cursor-pointer">
               Вакансии
             </p>
           </router-link>
-          <router-link to="/news">
+          <router-link :to="`${base}news`">
             <p class="text-white font-bold mb-5 hover:opacity-70 cursor-pointer">
               Новости
             </p>
           </router-link>
-          <router-link to="/contacts">
+          <router-link :to="`${base}contacts`">
             <p class="text-white font-bold mb-5 hover:opacity-70 cursor-pointer">
               Контакты
             </p>
@@ -101,7 +101,7 @@
 </template>
 
 <script setup lang="ts">
-
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style scoped></style>

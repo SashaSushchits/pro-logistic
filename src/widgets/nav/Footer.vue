@@ -33,7 +33,7 @@
           </div>
           <div class="col-span-1 text-center">
             <router-link
-              to="/"
+              :to="base"
             >
               <img
                 src="@/assets/png/logo.png"
@@ -77,7 +77,7 @@
 import FooterNav from '@/features/nav/FooterNav.vue'
 
 const year = new Date().getFullYear()
-
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style scoped>

@@ -8,7 +8,7 @@
     <router-link
       v-for="(index) in pagesLength"
       :key="index"
-      to="/"
+      :to="base"
     >
       <div
         class="h-6 w-6 rounded flex justify-center items-center"
@@ -29,7 +29,8 @@
 import { ref } from 'vue';
 
 const pagesLength = 5
-const activePage = ref(1)
+const activePage = ref(1);
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style scoped></style>

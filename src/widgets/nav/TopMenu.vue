@@ -3,32 +3,32 @@
     <div class="container mx-auto flex justify-between items-center">
       <ul class="flex text-xl text-white">
         <li class="mr-20">
-          <router-link to="/about">
+          <router-link :to="`${base}about`">
             О компании
           </router-link>
         </li>
         <li class="mr-20">
-          <router-link to="/advertising">
+          <router-link :to="`${base}advertising`">
             Рекламодателю
           </router-link>
         </li>
         <li class="mr-20">
-          <router-link to="/services">
+          <router-link :to="`${base}services`">
             Услуги
           </router-link>
         </li>
         <li class="mr-20">
-          <router-link to="/vacancies">
+          <router-link :to="`${base}vacancies`">
             Вакансии
           </router-link>
         </li>
         <li class="mr-20">
-          <router-link to="/news">
+          <router-link :to="`${base}news`">
             Новости
           </router-link>
         </li>
         <li class="mr-20">
-          <router-link to="/contacts">
+          <router-link :to="`${base}contacts`">
             Контакты
           </router-link>
         </li>
@@ -63,6 +63,8 @@
 
 <script setup lang="ts">
 import Login from './Login.vue'
+
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style scoped>

@@ -7,7 +7,7 @@
       <li>
         <div class="flex items-center">
           <router-link
-            to="/"
+            :to="base"
             class="text-[#BEBEBE] hover:text-[#646464]"
           >
             Главная
@@ -51,6 +51,8 @@ const props = defineProps({
     type: String
   },
 })
+
+const base = import.meta.env.BASE_URL;
 </script>
 
 <style scoped></style>
